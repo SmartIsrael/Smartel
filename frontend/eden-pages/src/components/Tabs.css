@@ -1,0 +1,126 @@
+.box {
+    display: flex;
+}
+.adress p {
+    color: rgb(63, 63, 63);
+}
+.sect {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.inst {
+    margin-left: 20px;
+    font-weight: bold;
+    color: green;
+    padding-top: 20px;
+}
+.rev{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.count p {
+    margin-bottom: 0px !important;
+}
+
+.itemo {
+    display: flex;
+    gap: 5%;
+    height: 40px;
+    align-items: center;
+}
+.remove {
+    font-weight: bold;
+    color: green;
+}
+
+.numicon {
+    background-color: green;
+    padding: 2px;
+    border-radius: 3px;
+    color: white;
+}
+.count {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.sum {
+    display: flex;
+    justify-content: space-between;
+}
+.momo {
+    display: flex;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+.tab-box {
+    background-color: white;
+    width: 400px;
+    border-radius: 15px;
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+    box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+.tot-box {
+    background-color: white;
+    width: 300px;
+    border-radius: 15px;
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+    box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+.add {
+    width: 200px;
+}
+.checkboxcont {
+    position: relative;
+    padding-right: 10px;
+}
+.checkboxcont input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 40px;
+}
+.total span {
+    font-size: 25px;
+    color: green;
+    margin-bottom: 5px;
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    font-size: 20px;
+}
+.total p:nth-child(2) {
+    padding-top: 2px;
+    color: black;
+}
+.checkout {
+    align-self: center;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.checkbtn {
+    display: flex;
+    justify-content: center;
+}

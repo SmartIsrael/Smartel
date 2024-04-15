@@ -1,0 +1,139 @@
+*{
+    font-family: 'roboto', Courier, monospace;
+}
+
+.login {
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+/* navbar.css */
+body {
+    background-color: black;
+}
+.navigation .navbar .logo {
+    /* Your custom styles for the brand go here */
+    color: green; /* Example: Orange text color for the brand */
+    font-size: 40px; /* Example: Increase font size for the brand */
+    /* Add more styles as needed */
+    font-style: italic;
+    text-decoration: none;
+  }
+
+  .navigation .navbar-brand.logo span {
+    /* Your custom styles for the brand go here */
+    color: orange; /* Example: Orange text color for the brand */
+    font-size: 40px; /* Example: Increase font size for the brand */
+    /* Add more styles as needed */
+    font-style: italic;
+  }
+  .navigation .nav-link {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 20px;
+    /* gap: ; */
+    color: rgb(0, 0, 0); /* Set the default text color for links */
+  }
+
+  Navbar {
+    color: red;
+  }
+  #menu {
+    margin-top: 13px;
+  }
+
+  .login {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 0 5px 0 5px;
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-top: 12px !important;
+  }
+  .dropmenu .menuitem:hover {
+    color: orange;
+    background-color: rgb(22, 17, 17);
+    margin: 0;
+  }
+  .navigation {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.1);
+  }
+
+  .offcanvas-header {
+    background-color: #f8f9fa; /* Header background color */
+    border-bottom: 1px solid #dee2e6; /* Header border color */
+  }
+  .offcanvas-body {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+
+  
+  .offcanvas-body .nav-link:hover {
+    color: orange;
+  }
+  .offcanvas-body > .login {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 0 5px 0 5px;
+    
+    margin-top: 15px;
+  }
+
+  .offcanvas-body .login:hover {
+    background-color: orange;
+    color: white;
+
+  }
+
+  @media only screen and (max-width: 990px) {
+    .offcanvas-body .nav-link {
+      padding: 20px 0;
+      margin-left: 0;
+      margin-right: 0;
+      text-align: center;
+    }
+    #menu {
+        padding-right: 0px!important;
+    }
+    .offcanvas-body .dropmenu .item {
+        border: none;
+        background-color: red;
+    }
+    .custom-nav-style {
+        /* Add your custom styles here */
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-radius: 5px;
+      }
+    .offcanvas-body .nav-link:hover {
+      background-color: orange;
+      color: white;
+    }
+  
+    .login {
+      text-decoration: none;
+      background-color: green;
+      color: white;
+      padding: 15px !important;
+      padding-left: 100px !important;
+      padding-right: 100px !important;
+      margin-top: 100px !important;
+      text-align: center;
+      margin-left: 65px !important;
+    }
+    .nav-link:last-child {
+      margin-bottom: 15px;
+    }
+  
+    .offcanvas-body .login:hover {
+      background-color: orange;
+      color: white;
+    }
+  }
+  

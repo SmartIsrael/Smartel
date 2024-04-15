@@ -1,0 +1,94 @@
+.simage-cont {
+    width: 350px;
+    height: 280px;
+}
+
+.sect2 {
+    background-color: rgb(245, 255, 245);
+    height: 100%;
+    padding-bottom: 50px;
+}
+.pg {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.simage-cont img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.Stitle {
+    font-weight: bold;
+    color: rgb(18, 167, 18);
+    font-size: 30px;
+    padding-top: 25px;
+    text-align: center;
+}
+.access {
+    background-color: rgb(33, 116, 33);
+    padding: 15px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.sbox-txt p {
+    margin-bottom: 30px;
+}
+.sub-title {
+    font-weight: bold;
+    color: rgb(18, 167, 18);
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.service-box {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+
+.sbox-txt {
+    width: 30%;
+}
+
+.access:hover {
+    background-color: orange;
+    transition: .2s ease-in;
+}
+
+/*#marki {
+    width: 40%;
+}
+#cropc {
+    width: 40%;
+}
+
+#for {
+    width: 35%;
+}*/
+
+@media screen and (max-width: 1000px) {
+    .service-box  {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    .sbox-txt {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .sbox-txt {
+        width: 80%;
+    }
+    .simage-cont {
+        width: 320px;
+        height: 200px;
+    }
+}

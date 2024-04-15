@@ -1,0 +1,176 @@
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 40%;
+    text-align: start;
+    margin-bottom: 0px;
+  }
+.button {
+    text-decoration: none;
+    background-color: orange;
+    width: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 18px;
+
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+  span {
+    color: orange;
+  }
+
+  .carousel-caption > h3:first-child{
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .carousel-caption > p {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .carousel-caption > h3:nth-child(3) {
+    font-size: 45px;
+  }
+
+  @media screen and (max-width: 1060px) {
+    
+    .carousel-caption > h3:nth-child(3) {
+        font-size: 35px;
+    
+      
+}
+  }
+
+  @media screen and (max-width: 990px) {
+    
+    .carousel-caption > h3:nth-child(3) {
+        font-size: 30px;
+      }
+      .carousel-caption > h3:first-child{
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .carousel-caption > p {
+        font-size: 15px;
+      }
+    .button {
+        font-size: 15px;
+        width: 120px;
+    }
+    
+  }
+
+  @media screen and (max-width: 840px) {
+    
+    .carousel-caption > h3:nth-child(3) {
+        font-size: 25px;
+      }
+      .carousel-caption > h3:first-child{
+        font-weight: bold;
+        font-size: 15px;
+      }
+      .carousel-caption > p {
+        font-size: 12px;
+      }
+    .button {
+        font-size: 13px;
+        width: 110px;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    
+    .carousel-caption > h3:nth-child(3) {
+        font-size: 20px;
+      }
+      .carousel-caption > h3:first-child{
+        font-weight: bold;
+        font-size: 15px;
+      }
+      .carousel-caption > p {
+        font-size: 17px;
+        width: 80%;
+      }
+      .button {
+        font-size: 11px;
+        width: 100px;
+    }
+    .carousel-caption {
+        width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 599px) {
+    
+    .carousel-caption > h3:nth-child(3) {
+        font-size: 15px;
+      }
+      .carousel-caption > h3:first-child{
+        font-weight: bold;
+        font-size: 10px;
+      }
+      .carousel-caption > p {
+        font-size: 12px;
+        width: 80%;
+      }
+      .button {
+        font-size: 9px;
+        width: 88px;
+    }
+    .carousel-caption {
+        width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    
+    .carousel-caption > h3:nth-child(3) {
+        font-size: 15px;
+      }
+      .carousel-caption > h3:first-child{
+        font-weight: bold;
+        font-size: 10px;
+      }
+      .carousel-caption > p {
+        font-size: 9px;
+        width: 80%;
+        display: none;
+      }
+      .button {
+        font-size: 8px;
+        width: 85px;
+    }
+    .carousel-caption {
+        width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 390px) {
+    
+    .carousel-caption > h3:nth-child(3) {
+        font-size: 12px;
+      }
+      .carousel-caption > h3:first-child{
+        font-weight: bold;
+        font-size: 8px;
+      }
+      .carousel-caption > p {
+        font-size: 9px;
+        width: 80%;
+        display: none;
+      }
+      .button {
+        font-size: 7px;
+        width: 77px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .carousel-caption {
+        width: 90%;
+    }
+  }
